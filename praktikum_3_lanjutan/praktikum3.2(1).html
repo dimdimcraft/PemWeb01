@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a web page</title>
+</head>
+<body>
+    <div class="container" style="margin-left: 50px; margin-right: 50px; margin-top: 50px;">
+        <div style="border: 2px solid black;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            Home &nbsp;|
+                        </td>
+                        <td style="padding-left: 150px;">
+                            Generate link &nbsp;|
+                        </td>
+                        <td style="padding-left: 150px;">
+                            Transaction history &nbsp;|
+                        </td>
+                        <td style="padding-left: 150px;">
+                            Policy &nbsp;|
+                        </td>
+                        <td style="padding-left: 150px;">
+                            Logout
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form action="#" method="post">
+            <div style="display: flex; padding-top: 30px;">
+                <div>
+                    <img src="asset/upload-icon.png" alt="photo" width="200px" height="200px"><br>
+                    <font><input type="submit" name="submit" value="Upload Picture"></font>
+                </div>
+                <div style="padding-left: 30px;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Title here</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" name="tilte" value="MacBook Air 800">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Description <br><br><br><br><br><br><br><br></td>
+                                <td>: <br><br><br><br><br><br><br><br></td>
+                                <td>
+                                    <textarea name="description" id="id_description" cols="30" rows="10"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Account number</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="tel" name="Accountnumber" id="id_account">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Bank</td>
+                                <td>:</td>
+                                <td>
+                                    <select name="bank" id="id_bank">
+                                        <option>BRI</option>
+                                        <option>BCA</option>
+                                        <option>BTN</option>
+                                        <option>other</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Account holder</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" name="holder" id="id_holder">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Transaction <br><br><br><br><br><br></td>
+                                <td>: <br><br><br><br><br><br></td>
+                                <td>
+                                    <input type="number" name="transaction" id="id_transaction" size="1">
+                                    <br><font>*if the transactionis for 3 person, choose 3 from the drop-down list</font>
+                                    <p>
+                                        <input type="checkbox" id="id_mobilephone">
+                                        <label for="id_mobilephone">send to mobile phone</label>
+                                        <br>
+                                        <input type="checkbox" id="id_email">
+                                        <label for="id_email">send to email</label>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>send to mobile phone</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="tel" name="send mobile">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>send to email</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="email" name="send email">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br><br>
+            <div align="center">
+                <input type="submit" name="submit" value="Generate Nobr Link">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

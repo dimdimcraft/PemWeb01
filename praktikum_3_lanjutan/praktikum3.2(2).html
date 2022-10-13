@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a web page</title>
+</head>
+<body>
+    <div class="container" style="margin-left: 50px; margin-right: 50px; margin-top: 50px;">
+        <div style="border: 2px solid black; margin-left: 190px; margin-right: 190px;" align="center" >
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            Home &nbsp;|
+                        </td>
+                        <td style="padding-left: 150px;">
+                            Register &nbsp;|
+                        </td>
+                        </td>
+                        <td style="padding-left: 150px;">
+                            Policy &nbsp;|
+                        </td>
+                        <td style="padding-left: 150px;">
+                            About
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form action="#" method="post">
+            <div style="display: flex; padding-top: 30px;">
+                <div>
+                    <img src="asset/macbook.png" alt="photo" width="200px" height="200px"><br>
+                    <!--source : google.com-->
+                </div>
+                <div style="padding-left: 30px;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Title here</td>
+                                <td>:</td>
+                                <td>
+                                    <p>Macbook Air 800</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Description <br><br><br><br><br><br><br><br></td>
+                                <td>: <br><br><br><br><br><br><br><br></td>
+                                <td>
+                                    <p>
+                                        Year : 2013
+                                        <br><br><br>
+                                        Model : -
+                                        <br><br><br>
+                                        condition : mint
+                                        <br><br>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Total Amount</td>
+                                <td>:</td>
+                                <td>
+                                    $800
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pay to</td>
+                                <td>:</td>
+                                <td>
+                                    <p>123-456-789</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Payment type</td>
+                                <td>:</td>
+                                <td>
+                                    <select name="payment" id="id_payment">
+                                        <option>Visa debit</option>
+                                        <option>Credit card</option>
+                                        <option>Cash on delivery</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Account holder</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" name="account">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Account to<br><br><br><br><br></td>
+                                <td>: <br><br><br><br><br></td>
+                                <td>
+                                    <input type="number" name="transaction" id="id_transaction" size="1">
+                                    <p>
+                                        <input type="checkbox" id="id_mobilephone" checked>
+                                        <label for="id_mobilephone">send to mobile phone</label>
+                                        <br>
+                                        <input type="checkbox" id="id_email" checked>
+                                        <label for="id_email">send to email</label>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>send to mobile phone</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="tel" name="send mobile">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>send to email</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="email" name="send email">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br><br>
+            <div align="center">
+                <input type="submit" name="submit" value="Pay using QuidLink">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
