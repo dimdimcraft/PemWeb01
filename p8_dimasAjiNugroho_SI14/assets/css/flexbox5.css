@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+header, footer{
+    background-color: aqua;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+}
+
+.images-container{
+    display: flex;
+    margin-left: 10%;
+}
+
+aside{
+    background-color: blue;
+    width: 200px;
+    height: 600px;
+}
+
+article{
+    background-color: red;
+    width: 100%;
+}
+
+.images{
+    background-color: grey;
+    margin: 5px;
+    width: 30%;
+    height: 200px;
+    margin-top: 300px;
+}
+
+header, aside, article, footer{
+    margin: 2px;
+}
