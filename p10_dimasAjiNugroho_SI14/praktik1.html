@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktik 1</title>
+    <script>
+        function cari_nama(){
+            let inp_nama = document.getElementById("nama").value;
+
+            document.getElementById("hasil-cari").innerHTML = inp_nama;
+        }
+    </script>
+</head>
+<body>
+
+    <form>
+        <label for="nama">masukkan nama :</label>
+        <input type="text" id="nama" name="nama">
+        <input type="button" id="cari" value="cari" onclick="cari_nama()">
+    </form>
+    <hr>
+    <div class="hasil-cari" style="border: 10px solid green; padding:50px; width: 500px;">
+        Nama yang anda cari : <span id="hasil-cari" style="color: blue;"></span>
+    </div>
+    
+</body>
+</html>
