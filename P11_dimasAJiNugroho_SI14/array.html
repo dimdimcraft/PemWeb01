@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum 11.1</title>
+    <script>
+        // membuat array fruits
+        let fruits = ['apel','mangga','jeruk'];
+        console.log(fruits);
+        console.log(fruits[0] +' '+ fruits[1] +' '+ fruits[2]); //cara lama melakukan looping
+
+        // menampilkan semua data array dengan looping (cara baru)
+        for(let i = 0; i < fruits.length; i++){
+            console.log(fruits[i])
+        }
+
+        fruits.push('jambu','manggis'); //untuk menambahkan data pada array (menggunakan push)
+        fruits.pop(); //untuk mengghapus data array paling akhir
+        fruits.sort(); //untuk mengurutkan data array dari A-Z, untuk mengurutkan sebaliknya dapat menggunakan fungsi .reverse pada array
+
+        console.log('')
+
+        // menampilkan semua data array dengan looping (cara baru)
+        for(let i = 0; i < fruits.length; i++){
+            console.log(fruits[i])
+        }
+
+        console.log('--------------------------------------------------')
+        // object
+        let mobil = {
+            tipe : 'turismo',
+            merk : 'Lombirghini',
+            tahun : 2009,
+            warna : 'merah',
+            jalan : function (){
+                console.log('breeeeeeeemmmmm.....');
+            }
+        }
+
+        console.log(mobil.tipe);
+    </script>
+</head>
+<body>
+    <h1>Belajar array</h1>
+    
+</body>
+</html>

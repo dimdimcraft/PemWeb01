@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum 9.4</title>
+</head>
+<body>
+
+    <form>
+        <input type="number" id="bilangan1" onchange="jumlah()">
+        <p>+</p>
+        <input type="number" id="bilangan2" onchange="jumlah()">
+        <p>=</p>
+        <input type="text" id="hasil" >
+    </form>
+
+    <script>
+        function jumlah(){
+            let bil1 = document.getElementById("bilangan1").value;
+            let bil2 = document.getElementById("bilangan2").value;
+
+            document.getElementById("hasil").value = +bil1 + +bil2;
+        }
+    </script>
+    
+</body>
+</html>

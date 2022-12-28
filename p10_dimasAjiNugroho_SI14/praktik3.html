@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktik 3</title>
+    <script>
+      function ubahWarna() {
+        let acak = Math.round(Math.random() * 10);
+        let warnas = document.getElementById("id1");
+
+        if(acak == 0)
+        warna_background = "white";
+        if (acak == 1)
+        warna_background = "blue";
+        if(acak == 2)
+        warna_background = "purple";
+        if(acak == 3)
+        warna_background = "green";
+        if(acak == 4)
+        warna_background = "red";
+        if(acak == 5)
+        warna_background = "black";
+        if(acak == 6)
+        warna_background = "pink";
+        if(acak == 7)
+        warna_background = "yellow";
+        if(acak == 8)
+        warna_background = "beige";
+        if(acak == 9)
+        warna_background = "skyblue";
+        if(acak == 10)
+        warna_background = "grey";
+
+
+
+        console.log("bilangan acak " + acak);
+        console.log("Dapat warna " + warna_background);
+
+        document.getElementById("id1").style =
+          "background-color:" + warna_background;
+      }
+    </script>
+  </head>
+  <body id="id1">
+    <form>
+      <input type="button" value="Ubah Warna" onclick="ubahWarna()" />
+    </form>
+  </body>
+</html>

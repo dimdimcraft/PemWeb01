@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktik 2</title>
+    <script>
+        function hitung_hasil(){
+            let bilng1 = document.getElementById("bil1").value;
+            let bilng2 = document.getElementById("bil2").value;
+
+            document.getElementById("hasil-hitung").innerHTML = +bilng1 + +bilng2
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="bil1">bilangan 1</label>
+        <input type="number" id="bil1" name="bil1">
+        <br>
+        <label for="bil2">bilangan 2</label>
+        <input type="number" id="bil2" name="bil2">
+        <br>
+        <input type="button" id="hitung" value="hitung" onclick="hitung_hasil()">
+    </form>
+    <p>hasil penjumlahan : <span id="hasil-hitung"></span></p>
+</body>
+</html>

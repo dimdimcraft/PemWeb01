@@ -1,0 +1,32 @@
+.kotak1{
+    background-color: green;
+    display: block;
+    height: 154px;
+    margin: 10px;
+}
+
+.kotak23{
+    float: left;
+}
+
+.kotak2, .kotak3{
+    background-color: yellow;
+    height: 154px;
+    width: 154px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.kotak4{
+    background-color: orangered;
+    height: 154px;
+    margin: 10px;
+    margin-left: 174px;
+}
+
+.kotak5{
+    background-color: aqua;
+    height: 154px;
+    margin-left: 174px;
+    margin-right: 10px;
+}
